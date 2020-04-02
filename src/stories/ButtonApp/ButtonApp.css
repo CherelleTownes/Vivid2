@@ -1,0 +1,71 @@
+/* ===============================================
+====================ALL BUTTONS=================== 
+==================================================*/
+
+button {
+  border-radius: 4px;  
+}
+
+/* ===============================================
+====================HOMEPAGE BUTTONS=================== 
+/* ================================================== */
+
+
+.homePageButtonOne  {
+  display: inline-block;
+  padding: 45px 80px;
+  font-size: 28px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #B31273;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #2FEEF5;
+}
+
+.homePageButtonOne:hover {background-color: rgb(148, 17, 95)}
+
+.homePageButtonOne :active {
+  background-color: white;
+  box-shadow: 0 5px #2FEEF5;
+  transform: translateY(4px);
+}
+
+.homePageButtonTwo  {
+  display: inline-block;
+  padding: 45px 80px;
+  font-size: 28px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #B31273;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #2FEEF5;
+  
+}
+
+.homePageButtonTwo:hover {background-color: rgb(148, 17, 95)}
+
+.homePageButtonTwo :active {
+  background-color: white;
+  box-shadow: 0 5px #2FEEF5;
+  transform: translateY(4px);
+}
+
+
+/* .homePageButtonOne {
+  display: flex;
+  justify-content: center;
+}
+
+.homePageButtonTwo {
+  display: flex;
+  justify-content: center;
+} */
+
