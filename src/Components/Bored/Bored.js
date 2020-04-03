@@ -16,7 +16,7 @@ class Bored extends Component {
   }
 
   componentDidMount = async () => {
-    const response = await axios("http://www.boredapi.com/api/activity/")
+    const response = await axios("https://www.boredapi.com/api/activity/")
     // debugger;
     console.log(response.data);
     this.setState({ results: response.data });

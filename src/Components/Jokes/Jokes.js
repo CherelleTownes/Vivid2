@@ -14,7 +14,7 @@ class Jokes extends Component {
   }
   }
   componentDidMount = async() => {
-    const response = await axios("https://sv443.net/jokeapi/v2/joke/any")
+    const response = await axios("https://sv443.net/jokeapi/v2/joke/programming")
     debugger;
     console.log(response.data);
     this.setState({ results: response.data });
