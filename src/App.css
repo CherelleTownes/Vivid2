@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 
 
@@ -120,4 +119,259 @@ padding-top: 80px;
 
 .jokes-content {
  margin-bottom: 50px;
+}
+
+/* ================================================== 
+=====================Responsive======================
+=====================================================*/
+
+@media only screen and (max-width: 700px) {
+
+  .top-triangle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .top-left-triangle {
+    width: 0%;
+    height: 0px;
+    border: 60px solid #2FEEF5;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .top-right-triangle {
+    width: 0%;
+    height: 0px;
+    border: 60px solid #2FEEF5;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    
+  } 
+  
+  .bottom-triangle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .bottom-left-triangle {
+    width: 0%;
+    height: 0px;
+    border: 82px solid #2FEEF5;
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .bottom-right-triangle {
+    width: 0%;
+    height: 0px;
+    border: 82px solid #2FEEF5;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    
+  } 
+  
+  h1, h2, h3 {
+    text-align: center;
+    font-family: 'Gotu', sans-serif;
+  }
+  
+  
+  .home-buttons {
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  .bored-buttons {
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  .jokes-buttons {
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  
+  .welcome {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .description {
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+    
+   li {
+     display: inline;
+     padding: 10px 20px;
+    }
+    
+    nav {
+      margin-top: 40px;
+      margin-left: 60px;
+    }
+    
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #09A7B3;
+      text-align: center;
+   }
+  
+   .activity {
+  margin-top: 50px;
+  
+   }
+  
+   .footer {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 14px;
+   }
+  
+  .jokes-header {
+    margin-top: 60px;
+    margin-bottom: 55px;
+  }
+  
+  
+  
+  .jokes-content {
+   margin-bottom: 50px;
+  }
+}
+
+@media only screen 
+and (min-width: 701px)
+and (max-width: 1199px) {
+
+  .top-triangle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .top-left-triangle {
+    width: 0%;
+    height: 0px;
+    border: 100px solid #2FEEF5;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .top-right-triangle {
+    width: 0%;
+    height: 0px;
+    border: 100px solid #2FEEF5;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    
+  } 
+  
+  .bottom-triangle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .bottom-left-triangle {
+    width: 0%;
+    height: 0px;
+    border: 100px solid #2FEEF5;
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .bottom-right-triangle {
+    width: 0%;
+    height: 0px;
+    border: 100px solid #2FEEF5;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    
+  } 
+  
+  h1, h2, h3 {
+    text-align: center;
+    font-family: 'Gotu', sans-serif;
+  }
+  
+  
+  .home-buttons {
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  .bored-buttons {
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  .jokes-buttons {
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  
+  .welcome {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .description {
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+    
+   li {
+     display: inline;
+     padding: 10px 20px;
+    }
+    
+    nav {
+      margin-top: 40px;
+      margin-left: 10px;
+    }
+    
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #09A7B3;
+      text-align: center;
+   }
+  
+   .activity {
+  margin-top: 50px;
+  
+   }
+  
+   .footer {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 14px;
+   }
+  
+  .jokes-header {
+    margin-top: 60px;
+    margin-bottom: 55px;
+  }
+  
+  
+  
+  .jokes-content {
+   margin-bottom: 50px;
+  }
+
 }

@@ -61,5 +61,117 @@ button {
   color: white;
 }
 
+/* ================================================== 
+=====================Responsive======================
+=====================================================*/
 
+@media only screen and (max-width: 700px) {
+
+.jokePageButtonOne {
+  background-color: #FFEB00; 
+  border: none;
+  color: #B31273;
+  padding: 35px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.jokePageButtonOne {
+  background-color: #FFEB00; 
+  color: #B31273; 
+  border: 2px solid #2FEEF5;
+}
+
+.jokePageButtonOne:hover {
+  background-color: #09A7B3;
+  color: white;
+}
+
+.jokesPageButtonTwo {
+  background-color: #FFEB00; 
+  border: none;
+  color: #B31273;
+  padding: 35px 124px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.jokesPageButtonTwo {
+  background-color: #FFEB00; 
+  color: #B31273; 
+  border: 2px solid #2FEEF5;
+}
+
+.jokesPageButtonTwo:hover {
+  background-color: #09A7B3;
+  color: white;
+}
+
+}
+
+@media only screen 
+and (min-width: 701px)
+and (max-width: 1199px) {
+  
+  .jokePageButtonOne {
+    background-color: #FFEB00; 
+    border: none;
+    color: #B31273;
+    padding: 35px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .jokePageButtonOne {
+    background-color: #FFEB00; 
+    color: #B31273; 
+    border: 2px solid #2FEEF5;
+  }
+  
+  .jokePageButtonOne:hover {
+    background-color: #09A7B3;
+    color: white;
+  }
+  
+  .jokesPageButtonTwo {
+    background-color: #FFEB00; 
+    border: none;
+    color: #B31273;
+    padding: 35px 124px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .jokesPageButtonTwo {
+    background-color: #FFEB00; 
+    color: #B31273; 
+    border: 2px solid #2FEEF5;
+  }
+  
+  .jokesPageButtonTwo:hover {
+    background-color: #09A7B3;
+    color: white;
+  }
+
+}
  

@@ -58,6 +58,114 @@ button {
   transform: translateY(4px);
 }
 
+/* ================================================== 
+=====================Responsive======================
+=====================================================*/
+
+@media only screen and (max-width: 700px) {
 
 
+.homePageButtonOne  {
+  display: inline-block;
+  padding: 35px 120px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #B31273;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #2FEEF5;
+}
 
+.homePageButtonOne:hover {background-color: rgb(148, 17, 95)}
+
+.homePageButtonOne :active {
+  background-color: white;
+  box-shadow: 0 5px #2FEEF5;
+  transform: translateY(4px);
+}
+
+.homePageButtonTwo  {
+  display: inline-block;
+  padding: 35px 120px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #B31273;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #2FEEF5;
+  
+}
+
+.homePageButtonTwo:hover {background-color: rgb(148, 17, 95)}
+
+.homePageButtonTwo :active {
+  background-color: white;
+  box-shadow: 0 5px #2FEEF5;
+  transform: translateY(4px);
+}
+}
+
+@media only screen 
+and (min-width: 701px)
+and (max-width: 1199px) {
+
+  .homePageButtonOne  {
+    display: inline-block;
+    padding: 35px 120px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #B31273;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #2FEEF5;
+  }
+  
+  .homePageButtonOne:hover {background-color: rgb(148, 17, 95)}
+  
+  .homePageButtonOne :active {
+    background-color: white;
+    box-shadow: 0 5px #2FEEF5;
+    transform: translateY(4px);
+  }
+  
+  .homePageButtonTwo  {
+    display: inline-block;
+    padding: 35px 120px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #B31273;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #2FEEF5;
+    
+  }
+  
+  .homePageButtonTwo:hover {background-color: rgb(148, 17, 95)}
+  
+  .homePageButtonTwo :active {
+    background-color: white;
+    box-shadow: 0 5px #2FEEF5;
+    transform: translateY(4px);
+  }
+
+}
