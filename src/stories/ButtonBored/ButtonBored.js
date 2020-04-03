@@ -3,6 +3,7 @@ import "./ButtonBored.css";
 
 
 
+
 const ButtonBoredReload = (props) => (
   <button onClick={() => window.location.reload(false)} className={props.button} style={props.style}>
     {props.label}

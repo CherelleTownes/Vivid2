@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from "axios"
-import Footer from '../Footer/Footer';
 import Header from '../Header/Header'
 import {ButtonBoredReload, ButtonHumorMe}  from '../../stories/ButtonBored/ButtonBored';
 import { Route, Link } from "react-router-dom";
@@ -17,7 +16,6 @@ class Bored extends Component {
 
   componentDidMount = async () => {
     const response = await axios("https://www.boredapi.com/api/activity/")
-    // debugger;
     console.log(response.data);
     this.setState({ results: response.data });
 

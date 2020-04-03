@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 import {ButtonJokes, ButtonJokesReload }  from '../../stories/ButtonJokes/ButtonJokes';
 import { Route, Link } from "react-router-dom"
-import Bored from '../Bored/Bored';
+
 
 class Jokes extends Component {
   constructor() {
@@ -15,7 +14,6 @@ class Jokes extends Component {
   }
   componentDidMount = async() => {
     const response = await axios("https://sv443.net/jokeapi/v2/joke/programming")
-    // debugger;
     console.log(response.data);
     this.setState({ results: response.data });
   }

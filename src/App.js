@@ -2,14 +2,12 @@ import React from 'react';
 import './App.css';
 import Main from "./Components/Main/Main";
 import Logo from "./Logo.png";
-// import Header from "./Components/Header/Header"
 import Footer from "./Components/Footer/Footer"
 import ButtonApp from './stories/ButtonApp/ButtonApp';
 import { Route, Link } from "react-router-dom";
 import Bored from './Components/Bored/Bored';
 import Jokes from './Components/Jokes/Jokes';
-// import Bored from "./Components/Bored/Bored";
-// import {BrowserRouter as Router } from "react-router-dom"
+
 
 function App () {
   return (
