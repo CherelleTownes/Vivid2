@@ -24,21 +24,18 @@ class Jokes extends Component {
     return (
       <div>
         <Header />
-        <h1>THIS IS THE JOKES PAGE</h1>
+        <h1 className="jokes-header">A Little Jokey Joke</h1>
 
-        <h3>{results.joke}</h3>
+        <div className="jokes-content">
+        <h3 className="jokes-h1">{results.joke}</h3>
         <h3>{results.setup}</h3>
         <h3>{results.delivery}</h3>
+        </div>
 
-
-        
+        <div className="jokes-buttons">
         <Link to="/Bored"><ButtonJokes button="jokePageButtonOne" label="I'm Bored, Give Me A Task Instead" /></Link>
         <Link to="/Jokes"><ButtonJokesReload button="jokesPageButtonTwo" label="Humor Me Again" /></Link>
-
-        <footer>
-          <Footer />
-        </footer>
-        
+        </div>
       </div>
 
   

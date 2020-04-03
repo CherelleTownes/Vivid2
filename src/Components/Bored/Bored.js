@@ -26,14 +26,11 @@ class Bored extends Component {
     const { results } = this.state;
     return (
       <div>
-        <header>
-        <Link exact to="/"><p>Logo</p></Link> 
-      </header>
+    
 
-        <h1 className="headerBored">THIS IS THE BORED PAGE</h1>
         <Header />
 
-        <div>
+        <div className="activity">
           <h2>Activity</h2>
           <h3>{results.activity}</h3>
           <h2>Category</h2>
@@ -42,12 +39,12 @@ class Bored extends Component {
           <h3>{results.participants}</h3>
         </div>
 
+        <div className="bored-buttons">
         <Link to="/Bored"><ButtonBoredReload button="boredPageButtonOne" label="Give Me A Different Task" /></Link>
         <Link to="/Jokes"><ButtonHumorMe button="boredPageButtonTwo" label="Humor Me"/></Link>
-
-        <footer>
-          <Footer />
-        </footer>
+        </div>
+          
+       
       </div>
 
 

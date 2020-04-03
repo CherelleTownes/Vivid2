@@ -13,8 +13,8 @@ button {
 
 .homePageButtonOne  {
   display: inline-block;
-  padding: 45px 80px;
-  font-size: 28px;
+  padding: 35px 150px;
+  font-size: 32px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -36,8 +36,8 @@ button {
 
 .homePageButtonTwo  {
   display: inline-block;
-  padding: 45px 80px;
-  font-size: 28px;
+  padding: 35px 150px;
+  font-size: 32px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -59,13 +59,5 @@ button {
 }
 
 
-/* .homePageButtonOne {
-  display: flex;
-  justify-content: center;
-}
 
-.homePageButtonTwo {
-  display: flex;
-  justify-content: center;
-} */
 

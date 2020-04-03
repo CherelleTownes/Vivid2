@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import Main from "./Components/Main/Main";
+import Logo from "./Logo.png";
 // import Header from "./Components/Header/Header"
-// import Footer from "./Components/Footer/Footer"
+import Footer from "./Components/Footer/Footer"
 import ButtonApp from './stories/ButtonApp/ButtonApp';
 import { Route, Link } from "react-router-dom";
 import Bored from './Components/Bored/Bored';
@@ -15,17 +16,18 @@ function App () {
     <div>
      
       <div className="top-triangle-container">
+
       <div className="top-left-triangle">
+        </div>
+        <div>
+        <Link exact to="/"><img src={Logo} alt="Logo"></img></Link> 
         </div>
         <div className="top-right-triangle">
       </div>
       </div>
        
-      <header>
-        <Link exact to="/"><img src="Images/Vivid-Trans-logo.png" alt="Logo"></img></Link> 
-      </header>
 
-  <h1>THIS IS OUTSIDE</h1>
+  
  <Route path="/" exact render={() => (
         <>
           <Main />
@@ -46,8 +48,13 @@ function App () {
 <div className="bottom-triangle-container">
       <div className="bottom-left-triangle">
         </div>
+        <div>
+          <footer>
+          <Footer />
+        </footer>
+        </div>
         <div className="bottom-right-triangle">
-      </div>
+        </div>
       </div>
 
 

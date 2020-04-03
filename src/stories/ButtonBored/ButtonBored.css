@@ -14,50 +14,39 @@ button {
 
 
 .boredPageButtonOne {
-  display: inline-block;
-  padding: 45px 80px;
-  font-size: 28px;
-  cursor: pointer;
+  background-color: #FF009B; 
+  border: none;
+  color: #2FEEF5;
+  padding: 35px 150px;
   text-align: center;
   text-decoration: none;
-  outline: none;
-  color: white;
-  background-color: #B31273;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #2FEEF5;
-}
-
-.boredPageButtonOne:hover {background-color: rgb(148, 17, 95)}
-
-.boredPageButtonOne :active {
-  background-color: white;
-  box-shadow: 0 5px #2FEEF5;
-  transform: translateY(4px);
-}
-
-.boredPageButtonTwo  {
   display: inline-block;
-  padding: 45px 80px;
-  font-size: 28px;
+  font-size: 32px;
+  margin: 4px 2px;
   cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.boredPageButtonOne {
+  box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.boredPageButtonTwo {
+  background-color: #FF009B; 
+  border: none;
+  color: #2FEEF5;
+  padding: 35px 150px;
   text-align: center;
   text-decoration: none;
-  outline: none;
-  color: white;
-  background-color: #B31273;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #2FEEF5;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
 }
 
-.boredPageButtonTwo:hover {background-color: rgb(148, 17, 95)}
-
-.boredPageButtonTwo:active {
-  background-color: white;
-  box-shadow: 0 5px #2FEEF5;
-  transform: translateY(4px);
+.boredPageButtonTwo {
+  box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-
- 

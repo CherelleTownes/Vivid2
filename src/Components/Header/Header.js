@@ -6,11 +6,6 @@ function Header() {
     <div>
       <nav>
         
-      <header>
-        <img src="#"></img>
-        </header>
-        
-      
         <ul>
         <Link exact to="/"><li>Home</li></Link>
           <Link to="/Jokes"><li>Humor Me</li></Link>

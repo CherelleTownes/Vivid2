@@ -11,50 +11,54 @@ button {
 /* ================================================== */
 
 
-.jokePageButtonOne  {
-  display: inline-block;
-  padding: 45px 80px;
-  font-size: 28px;
-  cursor: pointer;
+.jokePageButtonOne {
+  background-color: #FFEB00; 
+  border: none;
+  color: #B31273;
+  padding: 35px 100px;
   text-align: center;
   text-decoration: none;
-  outline: none;
-  color: white;
-  background-color: #B31273;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #2FEEF5;
-}
-
-.jokePageButtonOne:hover {background-color: rgb(148, 17, 95)}
-
-.jokePageButtonOne :active {
-  background-color: white;
-  box-shadow: 0 5px #2FEEF5;
-  transform: translateY(4px);
-}
-
-.jokesPageButtonTwo  {
   display: inline-block;
-  padding: 45px 80px;
-  font-size: 28px;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
   cursor: pointer;
+}
+
+.jokePageButtonOne {
+  background-color: #FFEB00; 
+  color: #B31273; 
+  border: 2px solid #2FEEF5;
+}
+
+.jokePageButtonOne:hover {
+  background-color: #09A7B3;
+  color: white;
+}
+
+.jokesPageButtonTwo {
+  background-color: #FFEB00; 
+  border: none;
+  color: #B31273;
+  padding: 35px 100px;
   text-align: center;
   text-decoration: none;
-  outline: none;
-  color: white;
-  background-color: #B31273;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #2FEEF5;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.jokesPageButtonTwo:hover {background-color: rgb(148, 17, 95)}
+.jokesPageButtonTwo {
+  background-color: #FFEB00; 
+  color: #B31273; 
+  border: 2px solid #2FEEF5;
+}
 
-.jokesPageButtonTwo:active {
-  background-color: white;
-  box-shadow: 0 5px #2FEEF5;
-  transform: translateY(4px);
+.jokesPageButtonTwo:hover {
+  background-color: #09A7B3;
+  color: white;
 }
 
 
