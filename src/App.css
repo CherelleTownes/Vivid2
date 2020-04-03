@@ -136,7 +136,7 @@ padding-top: 80px;
   .top-left-triangle {
     width: 0%;
     height: 0px;
-    border: 60px solid #2FEEF5;
+    border: 100px solid #2FEEF5;
     border-bottom-color: transparent;
     border-right-color: transparent;
   }
@@ -144,7 +144,7 @@ padding-top: 80px;
   .top-right-triangle {
     width: 0%;
     height: 0px;
-    border: 60px solid #2FEEF5;
+    border: 100px solid #2FEEF5;
     border-bottom-color: transparent;
     border-left-color: transparent;
     
@@ -159,7 +159,7 @@ padding-top: 80px;
   .bottom-left-triangle {
     width: 0%;
     height: 0px;
-    border: 82px solid #2FEEF5;
+    border: 100px solid #2FEEF5;
     border-top-color: transparent;
     border-right-color: transparent;
   }
@@ -167,7 +167,7 @@ padding-top: 80px;
   .bottom-right-triangle {
     width: 0%;
     height: 0px;
-    border: 82px solid #2FEEF5;
+    border: 100px solid #2FEEF5;
     border-top-color: transparent;
     border-left-color: transparent;
     
@@ -177,12 +177,22 @@ padding-top: 80px;
     text-align: center;
     font-family: 'Gotu', sans-serif;
   }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
   
   
   .home-buttons {
     display:flex;
    flex-direction: column;
    align-items: center;
+   margin-top: 100px;
+   margin-bottom: 103px;
   }
   
   .bored-buttons {
@@ -195,15 +205,18 @@ padding-top: 80px;
     display:flex;
    flex-direction: column;
    align-items: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
   }
   
-  
   .welcome {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 150px;
+    font-size: 70px;
   }
   
   .description {
+    font-size: 40px;
+    margin-top: 100px;
     margin-bottom: 70px;
     margin-left: 10px;
     margin-right: 10px;
@@ -215,13 +228,14 @@ padding-top: 80px;
     }
     
     nav {
-      margin-top: 40px;
-      margin-left: 60px;
+      margin-top: 60px;
+      margin-left: 250px;
+      margin-bottom: 70px;
     }
     
     a {
       text-decoration: none;
-      font-size: 16px;
+      font-size: 24px;
       color: #09A7B3;
       text-align: center;
    }
@@ -234,18 +248,21 @@ padding-top: 80px;
    .footer {
   padding-top: 80px;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
    }
   
   .jokes-header {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 55px;
+    font-size: 70px;
   }
-  
-  
   
   .jokes-content {
    margin-bottom: 50px;
+  }
+
+  .jokes-results {
+    font-size: 25px;
   }
 }
 
@@ -303,12 +320,22 @@ and (max-width: 1199px) {
     text-align: center;
     font-family: 'Gotu', sans-serif;
   }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
   
   
   .home-buttons {
     display:flex;
    flex-direction: column;
    align-items: center;
+   margin-top: 100px;
+   margin-bottom: 103px;
   }
   
   .bored-buttons {
@@ -321,15 +348,18 @@ and (max-width: 1199px) {
     display:flex;
    flex-direction: column;
    align-items: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
   }
   
-  
   .welcome {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 150px;
+    font-size: 70px;
   }
   
   .description {
+    font-size: 40px;
+    margin-top: 100px;
     margin-bottom: 70px;
     margin-left: 10px;
     margin-right: 10px;
@@ -341,13 +371,14 @@ and (max-width: 1199px) {
     }
     
     nav {
-      margin-top: 40px;
-      margin-left: 10px;
+      margin-top: 60px;
+      margin-left: 250px;
+      margin-bottom: 70px;
     }
     
     a {
       text-decoration: none;
-      font-size: 16px;
+      font-size: 24px;
       color: #09A7B3;
       text-align: center;
    }
@@ -360,18 +391,21 @@ and (max-width: 1199px) {
    .footer {
   padding-top: 80px;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
    }
   
   .jokes-header {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 55px;
+    font-size: 70px;
   }
-  
-  
   
   .jokes-content {
    margin-bottom: 50px;
+  }
+
+  .jokes-results {
+    font-size: 25px;
   }
 
 }

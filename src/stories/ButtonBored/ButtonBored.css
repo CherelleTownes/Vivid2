@@ -57,43 +57,47 @@ button {
 
 @media only screen and (max-width: 700px) {
 
-.boredPageButtonOne {
-  background-color: #FF009B; 
-  border: none;
-  color: #2FEEF5;
-  padding: 35px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 32px;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-}
-
-.boredPageButtonOne {
-  box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.boredPageButtonTwo {
-  background-color: #FF009B; 
-  border: none;
-  color: #2FEEF5;
-  padding: 35px 135px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 32px;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-}
-
-.boredPageButtonTwo {
-  box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  .boredPageButtonOne {
+    background-color: #FF009B; 
+    border: none;
+    color: #2FEEF5;
+    padding: 45px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+  }
+  
+  .boredPageButtonOne {
+    box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .boredPageButtonTwo {
+    background-color: #FF009B; 
+    border: none;
+    color: #2FEEF5;
+    padding: 45px 245px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+  }
+  
+  .boredPageButtonTwo {
+    box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 320px;
+    
+  }
 
 }
 
@@ -105,7 +109,7 @@ and (max-width: 1199px)  {
     background-color: #FF009B; 
     border: none;
     color: #2FEEF5;
-    padding: 35px 40px;
+    padding: 45px 150px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -118,13 +122,15 @@ and (max-width: 1199px)  {
   
   .boredPageButtonOne {
     box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .boredPageButtonTwo {
     background-color: #FF009B; 
     border: none;
     color: #2FEEF5;
-    padding: 35px 135px;
+    padding: 45px 245px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -137,6 +143,8 @@ and (max-width: 1199px)  {
   
   .boredPageButtonTwo {
     box-shadow: 0 16px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 320px;
+    
   }
 
 }

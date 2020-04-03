@@ -15,7 +15,7 @@ class Jokes extends Component {
   }
   componentDidMount = async() => {
     const response = await axios("https://sv443.net/jokeapi/v2/joke/programming")
-    debugger;
+    // debugger;
     console.log(response.data);
     this.setState({ results: response.data });
   }
@@ -27,9 +27,9 @@ class Jokes extends Component {
         <h1 className="jokes-header">A Little Jokey Joke</h1>
 
         <div className="jokes-content">
-        <h3 className="jokes-h1">{results.joke}</h3>
-        <h3>{results.setup}</h3>
-        <h3>{results.delivery}</h3>
+        <h3 className="jokes-results">{results.joke}</h3>
+        <h3  className="jokes-results">{results.setup}</h3>
+        <h3  className="jokes-results">{results.delivery}</h3>
         </div>
 
         <div className="jokes-buttons">
